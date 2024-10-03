@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .art,.art1 {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            column-gap: 10px;
+            width: 100%;
+            margin-left: 30px;
+            margin-right: 30px;
+           
+        
+        }
+        body{
+            overflow-x: hidden;
+        }
+        nav>.one>div{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  
+}
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+}
+nav>.two{
+    padding-left: 500px;
+}
+nav>.three{
+    padding-left: 500px;
+}
+@media screen and (width<760px) {
+    nav{
+        background-color: cornflowerblue;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .art,.art1{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    nav>.three{
+        padding-left: 0;
+    }
+    nav>.two{
+        padding-left: 0;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="one" style="padding-left: 20px;">
+        <div></div>
+<div></div>
+<div></div></div>
+<div class="two" ><h1 >Food</h1></div>
+<div class="three"><h1 >Mail</h1></div>
+
+    </nav>
+    <div class="art">
+        <div class="card1">
+            <img src="house5.jpg" width="300px" height="330px">
+            <p style="font-weight:bold ;">The Perfect Sandwich, A Real NYC Classic</p>Just some random text, lorem ipsum
+            text praesent tincidunt ipsum lipsum.<p></p>
+        </div>
+        <div class="card2">
+            <img src="house5.jpg" width="300px" height="330px">
+            <p style="font-weight:bold ;">The Perfect Sandwich, A Real NYC Classic</p>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="card3">
+            <img src="house5.jpg" width="300px" height="330px">
+            <p style="font-weight:bold ;">The Perfect Sandwich, A Real NYC Classic</p>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="card4">
+            <img src="house5.jpg" width="300px" height="330px">
+            <p style="font-weight:bold ;">The Perfect Sandwich, A Real NYC Classic</p>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+    <div class="art1">
+        <div class="card1">
+            <img src="house5.jpg" width="300px" height="330px">
+            <p style="font-weight:bold ;">The Perfect Sandwich, A Real NYC Classic</p>Just some random text, lorem ipsum
+            text praesent tincidunt ipsum lipsum.<p></p>
+        </div>
+        <div class="card2">
+            <img src="house5.jpg" width="300px" height="330px">
+            <p style="font-weight:bold ;">The Perfect Sandwich, A Real NYC Classic</p>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="card3">
+            <img src="house5.jpg" width="300px" height="330px">
+            <p style="font-weight:bold ;">The Perfect Sandwich, A Real NYC Classic</p>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="card4">
+            <img src="house5.jpg" width="300px" height="330px">
+            <p style="font-weight:bold ;">The Perfect Sandwich, A Real NYC Classic</p>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+    <hr style="margin-left: 50px;margin-right: 50px;">
+</body>
+
+</html>
